@@ -10,13 +10,13 @@
 </head>
 <body>
     <h1> Este documento existe para fim de teste e apresentação </h1>
-    <h2> Tags para digitação</h2>
-      <p> &lt H1 &gt no html server para criar um cabeçalho </p>
-      <p id="Punity"> &lt P &gt no html server para criar um parágrafo </p>
-      <p id="BRunity"> &lt Br &gt no html server para criar uma quebra de linha, quanto mais br criar, mais linhas ele quebra</p> 
-      <p id="HRunity"> &lt Hr &gt no html server para criar uma quebra de linha, porém ele separa, desenhando uma linha </p>
-      <hr>
-    <h2 id="ListunityOrder"> Tags de Listagem </h2>
+        <h2> Tags para digitação</h2>
+            <p> &lt H1 &gt no html server para criar um cabeçalho </p>
+            <p id="Punity"> &lt P &gt no html server para criar um parágrafo </p>
+            <p id="BRunity"> &lt Br &gt no html server para criar uma quebra de linha, quanto mais br criar, mais linhas ele quebra</p> 
+            <p id="HRunity"> &lt Hr &gt no html server para criar uma quebra de linha, porém ele separa, desenhando uma linha </p>
+            <hr>
+        <h2 id="ListunityOrder"> Tags de Listagem </h2>
       <p> &lt ol &gt server para criar um lista ordenada, e juntamente com &lt il &gt que será os itens da lista. </p>
        <ol>
           <li>Primeiro</li>
@@ -97,56 +97,67 @@
      <hr>
 
      <h2> Tags para Links, imagens, audios, videos e etc </h2>
-      <p id="ImgUnity"> Inicialmente, usando a tag &lt img &gt é possivel anexar uma imagem, onde dentro da tag, 
+      <p id="ImgUnity"> 
+          Inicialmente, usando a tag &lt img &gt é possivel anexar uma imagem, onde dentro da tag, 
           precisamos inserir src="" para definir o caminho para chegar a imagem, seja na web, seja na maquina local.
           A tag alt="", usamos para inserir um título quando pessoas não conseguem carregar a imagem, mas pelo menos possuem a descrição da mesma. </p>
       <img src="https://www.next-t.co.kr/public/uploads/7b7f7e2138e29e598cd0cdf2c85ea08d.jpg" alt="IMG" width="20%">
 
-      <p id="VidUnity"> Usamos a tag &lt Video &gt para anexar um video, e dentro do mesmo, adicionamos Control para poder executalo. Dentro da tag, 
+      <p id="VidUnity"> 
+          Usamos a tag &lt Video &gt para anexar um video, e dentro do mesmo, adicionamos Control para poder executalo. Dentro da tag, 
           adicionamos a tag &lt source &gt e dentro dela o src="" para fazer a referencia ao caminho do video, apenas de um diretório da maquina e type para especificar o tipo de video, ou seja, a extensão. 
       </p>
       <video width="40%" controls> 
         <source src="F:\SITE HTML E CSS TESTE\Videos and Images\Video.mp4" type="Video/mp4">
       </video>
 
-      <p id="AudioUnity">Usamos a tag &lt Audio &gt, para adicionar um arquivo de audio, e igualmente a Video, adicionamos dentro dela o Control para poder executar e adicionamos dentr da tag Source e dentro desta
-          adicionamos o src="" para referenciar o audio e type="" o tipo de extensão.
-      </p>
+         <p id="AudioUnity">
+             Usamos a tag &lt Audio &gt, para adicionar um arquivo de audio, e igualmente a Video, adicionamos dentro dela o Control para poder executar e adicionamos dentr da tag Source e dentro desta
+             adicionamos o src="" para referenciar o audio e type="" o tipo de extensão.
+         </p>
 
       <Audio controls>
           <Source src="F:\SITE HTML E CSS TESTE\Videos and Images\audio.mp3" type="audio/mp3">
       </Audio>
 
-      <p id="LinksUnity"> Para anexa um Link usamos a tag &lt a &gt, nela adicionamos a tag href="" que será para referenciar o link de uma outra página. Também podemos anexar uma imagem e usa-la como 
-      botão para abrir o link. Usando a tag Target="_blank" podemos fazer com que o link abra em outra aba automaticamente.
+      <p id="LinksUnity"> 
+         Para anexa um Link usamos a tag &lt a &gt, nela adicionamos a tag href="" que será para referenciar o link de uma outra página. Também podemos anexar uma imagem e usa-la como 
+         botão para abrir o link. Usando a tag Target="_blank" podemos fazer com que o link abra em outra aba automaticamente.
       </p>
+
       <a href="F:\SITE HTML E CSS TESTE\Index_Pag2.html" Target="_blank" > <img  width="20%" src="https://www.next-t.co.kr/public/uploads/7b7f7e2138e29e598cd0cdf2c85ea08d.jpg" alt="Link para pagina 2">  </a>
 
-      <p id="VideoYouTubeUnity"> Para Links de Videos, usamos a tag &lt frame &gt, a qual anexas um card do Youtube para executar, porem diferente da Tag Video, não é necessario adicionar control e nem dentro dela a tag source, mas adicionar
+      <p id="VideoYouTubeUnity"> 
+          Para Links de Videos, usamos a tag &lt frame &gt, a qual anexas um card do Youtube para executar, porem diferente da Tag Video, não é necessario adicionar control e nem dentro dela a tag source, mas adicionar
           src="" para anexas o link do video. Porém, o link esta determinado como watch, então retiramos a parte "watch?v=" e adicionamos embed/, então o link ficaria https://www.youtube.com/embed/AexeWtlbEBk 
       </p>
-      <iframe width="517" height="291"
-       src="https://www.youtube.com/embed/AexeWtlbEBk">
-      </iframe>
+       <iframe width="517" height="291"
+          src="https://www.youtube.com/embed/AexeWtlbEBk">
+       </iframe>
 
-    <hr>
+      <hr>
 
-    <h2> Tags para Botões e box para inserir Textos </h2>
+     <h2> Tags para Botões e box para inserir Textos </h2>
 
-    <p id="ButtonUnity"> Para criar botões, usasse a tag &lt Button &gt, que irá gerar uma caixa de texto clicavel. Caso queira adicionar algum Texto, é necessario adicionar um Type="" para especificar, e caso queira que algo ocorra ao clicar, 
+     <p id="ButtonUnity"> 
+         Para criar botões, usasse a tag &lt Button &gt, que irá gerar uma caixa de texto clicavel. Caso queira adicionar algum Texto, é necessario adicionar um Type="" para especificar, e caso queira que algo ocorra ao clicar, 
          usamos o onclick="", para realizar algo quand esse botão for apertado.     
-    </p>
+     </p>
 
-    <br>
+     <br>
 
-    <p id="ButtonUnityTest"> O exemplo a baixo mostra apenas o botão propriamente dito. Porém, se clicarmos nele, nada ocorre. </p>
+     <p id="ButtonUnityTest"> 
+        O exemplo a baixo mostra apenas o botão propriamente dito. Porém, se clicarmos nele, nada ocorre. 
+     </p>
 
-    <button Type="button" > Botão </button>
+      <button Type="button" > Botão </button>
 
-    <p> Para que algo ocorra, é necessario adicionar onclick="", pois isso especificará o que deve ocorrer ao clicar o botão. A vários tipos de elementos que podem ser o utilizados dentro do onclick="", como alert, que irá gerar uma caixa de texto
-     que falará algo, após o botão ser clicado. </p>
+     <p> 
+      Para que algo ocorra, é necessario adicionar onclick="", pois isso especificará o que deve ocorrer ao clicar o botão. A vários tipos de elementos que podem ser o utilizados dentro do onclick="", como alert, que irá gerar uma caixa de texto
+      que falará algo, após o botão ser clicado. 
+     </p>
 
-    <button Type="button" onclick="alert('YOU CLICKED THIS BUTTON')"> Botão </button>
+     <button Type="button" onclick="alert('YOU CLICKED THIS BUTTON')"> Botão </button>
 
-</body>
+    </body>
 </html>
